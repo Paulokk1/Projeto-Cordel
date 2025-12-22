@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Handlee&display=swap');
+
+
+:root {
+    --fonte1: "Handlee", cursive;
+    --fonte2: "BBH Bogle", sans-serif;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte3);
+
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header > h1 {
+    padding: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 50px;
+    margin-bottom: -5%;
+}
+header {
+    padding-bottom: 50px;
+
+}
+a {
+    color: white;
+    text-align: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+
+
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.normal {
+
+    background-color: white;
+    color: black;
+}
+.imagem {
+    background-color: blue;
+    box-shadow: inset 3px 3px 3px black;
+    background-attachment: fixed;
+
+}
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 32px;
+    padding-left: 35px;
+    font-family: var(--fonte1);
+}
+section > p {
+    width: 400px;
+    padding: 15px;
+    font-size: 25px;
+  }
+  section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    text-shadow: 6px 6px 3px rgba(14, 12, 12, 0.767);
+  }
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
