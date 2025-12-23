@@ -37,7 +37,8 @@ header > h1 {
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 50px;
-    margin-bottom: -5%;
+    padding-bottom: 7px;
+    
 }
 header {
     padding-bottom: 50px;
